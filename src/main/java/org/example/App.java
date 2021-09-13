@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  Copyright 2021 Joseph Schander
+ */
 package org.example;
 
 
@@ -16,7 +20,7 @@ public class App {
         System.out.println("What is the state?");
         String State = uInput.nextLine();
         System.out.println("The subtotal is $" + DF.format(OrderAmount));
-        if (State.equals("WI") == true) {
+        if (State.equals("WI")) {
             System.out.println("The tax is: $" + Tax + "\nThe total is: $" + DF.format(OrderAmount + Tax));
         }
     }
